@@ -1,0 +1,165 @@
+body{
+    background-color: #f4f4f4;
+}
+.name,
+.nameId,
+.nameqq,
+.phone,
+.region,
+.postcode{
+    height: 4rem;
+    line-height: 3.9rem;
+    border-bottom:1px solid #f2f2f2;
+    padding: 0 1.5rem;
+    background-color: #fff;
+}
+.name span.fl,
+.nameId span.fl,
+.nameqq span.fl,
+.phone span.fl,
+.region span.fl,
+.postcode span.fl{
+    font-size: 1.5rem;
+    color:#333;
+}
+.name div.fr span,
+.nameId div.fr span,
+.nameqq div.fr span,
+.phone div.fr span,
+.region div.fr span,
+.postcode div.fr span{
+    font-size: 1.3rem;
+    color:#999;
+    margin-right: 0.2rem;
+}
+/* 地址 */
+.container{
+    padding: 0;
+    margin: 0;
+}
+.row{
+    margin: 0;
+}
+.picker .picker-panel .wheel-wrapper .wheel{
+    font-size: 2rem !important;
+}
+.picker .picker-panel{
+    height: 22rem !important;
+}
+.picker .picker-panel .picker-choose .cancel,
+.picker .picker-panel .picker-choose .confirm{
+    padding: 10px 15px !important;
+}
+.sites,
+.alipay,
+.tbpay{
+    height: 3.5rem;
+    line-height: 3.5rem;
+    padding: 0 1.5rem;
+    font-size: 1.4rem;
+}
+#sites {
+    display: inline-block;
+    width: 100%;
+    height: 8rem;
+    line-height: 3rem;
+    background-color: #fff;
+    font-size: 1.4rem;
+    padding: 0 1.5rem;
+    color: #666;
+}
+.submit{
+    display: block;
+    width: 84%;
+    height: 4rem;
+    line-height: 4rem;
+    color:#fff;
+    font-size: 1.7rem;
+    background-color: #118eea;
+    margin: 3rem auto;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* 上传图片 */
+#ctlBtn{
+    width: 85%;
+    height: 3.5rem;
+    outline: none;
+    border:none;
+    margin: 3rem auto 0;
+    display: block;
+    color:#fff;
+    font-size: 1.7rem;
+    background-color: #118eea;
+    border-radius: 4px;
+}
+.upPadding{
+    padding: 2rem 1.5rem 0;
+    background-color: #fff;
+}
+#uploader{
+    padding: 0.4rem 0.6rem;
+    border:1px dashed #118eea;
+    position: relative;
+}
+#thelist{
+    float: left;
+}
+#thelist .file-item{
+    float: left;
+    position: relative;
+}
+#lg_upload_tb,#lg_upload_ali{
+    background: url("/src/images/my_centre/uploading.png") no-repeat;
+    background-size: contain;
+    float: left;
+}
+.remove{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+.remove i{
+    font-size: 18px;
+    line-height: 18px;
+    display: inline-block;
+    color:#fff;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 4px;
+}
+.slt {
+    width: 1.4rem;
+    display: block;
+    color:#666;
+    font-size:14px;
+    text-align: center;
+    margin: 0 auto 0;
+    position: absolute;
+    left:50%;
+    top: 1rem;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.example_img,#lg_upload_tb,#lg_upload_ali{
+    width:calc(50% - 0.8rem);
+}
+.example_img img{
+    display: inline-block;
+    width: 100%;
+    border:1px dashed #ccc;
+}
+.thumbnail{
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}

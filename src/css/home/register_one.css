@@ -1,0 +1,29 @@
+.lg_register_one{
+    padding-top: 4.5rem;
+    text-align: center;
+}
+.lg_register_one h5{
+    font-size: 1.6rem;
+    margin-bottom: 4.5rem;
+}
+.lg_register_one input{
+    display: inline-block;
+    width: 84%;
+    height: 4rem;
+    line-height: 4rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+}
+.lg_register_one .btn{
+    display: inline-block;
+    width: 84%;
+    height: 4rem;
+    line-height: 4rem;
+    color:#fff;
+    background-color: #118eea;
+    font-size: 1.6rem;
+    border-radius: 4px;
+}

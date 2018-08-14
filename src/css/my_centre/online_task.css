@@ -1,0 +1,74 @@
+body{
+    background-color: #f2f2f2;
+}
+.lg_online_task{
+    background-color: #fff;
+}
+.lg_online_task h2{
+    line-height: 3.5rem;
+    font-size: 2rem;
+    color:#333;
+    padding: 0 1.5rem;
+    font-weight: bold;
+}
+.lg_online_task>p{
+    padding: 0 1.5rem;
+    font-size: 1.4rem;
+    color:#999;
+    line-height: 2rem;
+}
+.mt1{
+    margin-top: 1rem;
+}
+.taskBox{
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.taskBox ul li{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.taskBox ul li a{
+display: inline-block;
+ width: 100%;
+
+}
+.taskBox ul li img{
+    width: 5rem;
+    height: 5rem;
+    display: inline-block;
+}
+.taskBox ul li p{
+    font-size: 1.3rem;
+    color:#333;
+    line-height: 2rem;
+}
+.today_task,
+.reward_task,
+.mouth_task{
+    height: 3.5rem;
+    padding: 0 1.5rem;
+}
+.today_task span.fl,
+.reward_task span.fl,
+.mouth_task span.fl{
+    font-size: 1.5rem;
+    line-height: 3.3rem;
+}
+.today_task span.fr i,
+.reward_task span.fr i,
+.mouth_task span.fr i{
+    font-size: 2rem;
+    color:#d1d1d1;
+    line-height: 3.3rem;
+}
+.today_task span.fr i:first-child,
+.reward_task span.fr i:first-child,
+.mouth_task span.fr i:first-child{
+    color:#118eea;
+}
+.h3{
+    height: 3rem;
+}

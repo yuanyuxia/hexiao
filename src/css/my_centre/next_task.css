@@ -1,0 +1,15 @@
+.lg_next_task{
+    padding: 0 1.5rem;
+}
+.lg_next_task h2{
+    color:#333;
+    font-size: 2rem;
+    line-height: 3rem;
+    border-bottom:1px solid #ebebeb;
+    font-weight: bold;
+}
+.lg_next_task p{
+    font-size: 1.4rem;
+    line-height:1.8rem;
+    margin-top: 0.7rem;
+}

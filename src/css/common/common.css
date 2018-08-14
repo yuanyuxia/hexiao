@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    color: #111111;
+    text-decoration: none;
+    -webkit-backface-visibility: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 3px;
+    background-color: rgba(125, 125, 125, 0.7);
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 3px;
+    background-color: rgba(125, 125, 125, 0.7);
+    -webkit-border-radius: 6px;
+}
+
+/* 默认body样式 */
+
+body {
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: '微软雅黑';
+    color: #666;
+    background-color: #fff;
+}
+
+/* 清除浮动 */
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.c_blue {
+    color: #118eea;
+}
+
+.c0 {
+    color: #000;
+}
+
+.c3 {
+    color: #333;
+}
+
+.c6 {
+    color: #666;
+}
+
+.c9 {
+    color: #999;
+}
+.h5{
+    height: 5rem;
+}
+i,
+em {
+    font-style: normal;
+}
+
+.tx_i {
+    text-indent: 2em;
+}
+
+input:focus,
+input,
+textarea,
+textarea:focus {
+    outline: none;
+}
+
+textarea {
+    border: none;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #ccc;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    color: #ccc;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #ccc;
+}
+
+/* 跳转链接箭头 */
+
+i.jiantou {
+    display: inline-block;
+    width: 0.8rem;
+    height: 1.4rem;
+    background: url("/src/images/common/jiantou.png") no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-bottom: 0.2rem;
+}
+i.jiantouB{
+    display: inline-block;
+    width: 0.8rem;
+    height: 1.4rem;
+    background: url("/src/images/common/jiantouB.png") no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    margin-bottom: 0.2rem;
+}
+
+/* 底部 */
+
+footer.footdh {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #fff;
+    z-index: 99999;
+    max-width: 750px;
+    color: #fff;
+    border-top: 1px solid #EEEEEE;
+    background-color: #fff;
+    height: 5rem;
+}
+
+footer.footdh ul li {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    float: left;
+    height: 5rem;
+}
+
+footer.footdh p {
+    font-size: 1.2rem;
+    font-family: "微软雅黑";
+    color: #c2c2c2;
+    margin-top: 0.3rem;
+}
+
+footer.footdh p.curr {
+    color: #F14121;
+}
+
+.tb1 {
+    color: #cec965;
+}
+
+.foot-logo {
+    width: 2.2rem;
+    vertical-align: middle;
+}
+
+.foot-logo.i2 {
+    display: none;
+}
+
+footer.footdh ul li.active p {
+    color: #303234;
+}
+
+footer.footdh ul li.active .i1 {
+    display: none;
+}
+
+footer.footdh ul li.active .i2 {
+    display: block;
+}

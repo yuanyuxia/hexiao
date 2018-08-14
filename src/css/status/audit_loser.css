@@ -1,0 +1,35 @@
+.lg_audit_loser{
+    text-align: center;
+}
+.top{
+    padding-top: 4rem;
+}
+.top img{
+    width: 4.6rem;
+    height: 4.6rem;
+    display: inline-block;
+}
+.top h5{
+    color:#333;
+    font-size: 1.5rem;
+    margin:0.2rem 0 0.7rem;
+}
+.top p{
+    font-size: 1.3rem;
+    color:#999;
+    margin-top: 0.2rem;
+}
+.compile{
+    width: 80%;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    background-color: #118eea;
+    margin:14rem auto 0;
+    border-radius: 4px;
+    
+}
+.compile a{
+    font-size: 1.7rem;
+    color:#fff;
+}

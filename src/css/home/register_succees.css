@@ -1,0 +1,22 @@
+.lg_register_succees{
+    padding-top: 6.5rem;
+}
+.lg_register_succees img{
+    width: 4.5rem;
+    height: 4.5rem;
+    display: block;
+    margin: 0 auto;
+}
+.lg_register_succees p.one{
+    color:#333;
+    font-size: 1.5rem;
+    display: block;
+    margin: 1.2rem 0 1.7rem;
+    text-align: center;
+}
+.lg_register_succees p.two{
+    color:#999;
+    font-size: 1.3rem;
+    display:block;
+    text-align: center;
+}

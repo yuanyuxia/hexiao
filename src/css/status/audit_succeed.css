@@ -1,0 +1,57 @@
+.top{
+    height: 11rem;
+    width: 100%;
+    text-align: center;
+    background-color: #319ded;
+}
+.top img{
+    width: 6.7rem;
+    display: inline-block;
+    margin: 2rem auto 0.6rem;
+}
+.top p{
+    font-size: 1.4rem;
+    color:#fff;
+}
+.name,
+.nameId,
+.nameqq,
+.phone,
+.region,
+.postcode{
+    height: 4rem;
+    line-height: 3.9rem;
+    border-bottom:1px solid #f2f2f2;
+    padding: 0 1.5rem;
+    background-color: #fff;
+}
+.name span.fl,
+.nameId span.fl,
+.nameqq span.fl,
+.phone span.fl,
+.region span.fl,
+.postcode span.fl{
+    font-size: 1.5rem;
+    color:#333;
+}
+.name div.fr span,
+.nameId div.fr span,
+.nameqq div.fr span,
+.phone div.fr span,
+.region div.fr span,
+.postcode div.fr span{
+    font-size: 1.3rem;
+    color:#999;
+    margin-right: 0.2rem;
+}
+.sites{
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0 1.5rem;
+    font-size: 1.4rem;
+}
+.sites p{
+    font-size: 1.4rem;
+    color:#999;
+    line-height: 1.8rem;
+}

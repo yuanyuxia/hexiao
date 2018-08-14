@@ -1,0 +1,64 @@
+.login,
+.captcha {
+    background-color: #fff;
+    width: 100%;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.login h3,
+.captcha h3 {
+    width: 84%;
+    margin: 0 auto;
+    color: #333;
+    text-align: left;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.login input,
+.captcha input {
+    display: inline-block;
+    width: 84%;
+    height: 4rem;
+    margin: 0 auto;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+}
+
+.login .loginBtn,
+.captcha .loginBtn {
+    display: inline-block;
+    width: 84%;
+    height: 4rem;
+    line-height: 4rem;
+    color: #fff;
+    background-color: #118eea;
+    font-size: 1.7rem;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.xz {
+    margin-top: 12rem;
+}
+
+.login .xz .shu {
+    width: 1px;
+    height: 1rem;
+    display: inline-block;
+    margin: 0 1rem;
+    background-color: #ccc;
+}
+
+.login .xz .forgot {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: #118eea;
+}

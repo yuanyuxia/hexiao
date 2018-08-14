@@ -1,0 +1,102 @@
+.lg_register_two{
+    padding-top: 2.7rem;
+    text-align: center;
+}
+.lg_register_two h5{
+    font-size: 1.6rem;
+}
+ .telephone{ 
+    font-size: 2.3rem;
+    color:#333;
+    margin: 3rem 0 2.4rem;
+   
+}
+.lg_register_two input{
+    display: inline-block;
+    width: 84%;
+    height: 4rem;
+    line-height: 4rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+}
+.lg_register_two .input{
+    width: 84%;
+    height: 4rem;
+    line-height: 4rem;
+    margin-bottom: 3rem;
+    display: inline-block;
+    position: relative;
+}
+.lg_register_two .input input{
+    width: 100%;
+}
+.lg_register_two .input .gain{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 8.5rem;
+    color:#fff;
+    font-size: 1.3rem;
+    background-color: #2c2c2c;
+    border-radius: 0 4px 4px 0;
+}
+.register{
+    width: 84%;
+    height: 4rem;
+    line-height: 4rem;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+    background-color: #118eea;
+    color:#fff;
+    font-size: 1.6rem;
+    display: inline-block;
+}
+.consent{
+    color:#999;
+    font-size: 1.3rem;
+}
+.consent i{
+    color:#118eea;
+}
+.container{
+    padding: 0;
+    margin: 0;
+}
+.row{
+    margin: 0;
+    position: relative;
+}
+.picker .picker-panel .wheel-wrapper .wheel{
+    font-size: 2rem !important;
+}
+.picker .picker-panel{
+    height: 22rem !important;
+}
+.picker .picker-panel .picker-choose .cancel,
+.picker .picker-panel .picker-choose .confirm{
+    padding: 10px 15px !important;
+}
+.times{
+    display: inline-block;
+    width: 84%;
+    height: 4rem;
+    line-height: 4rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    text-align: left;
+    color:#666;
+}
+.initialDay{
+    color:#ccc;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 8%;
+    top: 1rem;
+    padding-left: 2rem;
+}

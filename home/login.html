@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 优先使用 IE 最新版本和 Chrome-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- 为移动设备添加 viewport-->
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- 设置苹果工具栏颜色-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>登录</title>
+    <!--public css-->
+    <link rel="stylesheet" href="/src/libs/layer/skin/layer.css">
+    <link rel="stylesheet" href="/src/css/common/common.css" />
+    <!-- another css -->
+    <link rel="stylesheet" href="/src/css/home/login.css">
+</head>
+
+<body>
+    <div class="login">
+        <h3>账号密码登录</h3>
+        <input type="text" placeholder="请输入手机号" id="userName">
+        <input type="password" name="password" id="password" placeholder="密码">
+        <a href="javascript:;" class="loginBtn">登录</a>
+        <div class="xz">
+            <a href="/home/register_one.html" class="forgot">注册</a>
+            <i class="shu"></i>
+            <a href="/home/captcha.html" class="forgot">找回密码</a>
+        </div>
+    </div>
+</body>
+<!-- public js -->
+<script src="/src/libs/jquery-1.11.1.min.js"></script>
+<script src="/src/libs/layer/layer.js"></script>
+<script src="/src/js/common/common.js"></script>
+<!-- another js -->
+<script src="/src/js/home/login.js"></script>
+
+</html>

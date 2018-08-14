@@ -1,0 +1,250 @@
+body {
+    background-color: #f2f2f2;
+}
+
+.lg_common_task {
+    background-color: #fff;
+}
+
+.lg_common_task h2,
+.selectBox h2 {
+    line-height: 3.5rem;
+    font-size: 2rem;
+    color: #333;
+    padding: 0 1.5rem;
+    font-weight: bold;
+}
+
+.screen {
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.screen i {
+    font-size: 1rem;
+    vertical-align: middle;
+}
+
+.pro_list ul li {
+    border-top: 5px solid #f2f2f2;
+    padding: 1rem 1.5rem 1rem 0;
+}
+
+.pro_list ul li a {
+    display: inline-block;
+    width: 100%;
+}
+
+.proImg {
+    width: 8rem;
+    height: 8rem;
+    float: left;
+}
+
+.proImg img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #f2f2f2;
+}
+
+.proCon {
+    float: right;
+    width: calc(100% - 9rem);
+}
+
+.proCon h5 {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.proCon .mission_site {
+    margin: 0.5rem 0 0.9rem;
+}
+
+.proCon .mission_site i {
+    background: url("/src/images/mission/taobao.jpg") no-repeat;
+    background-size: contain;
+    width: 1.4rem;
+    height: 1.4rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-right: 0.2rem;
+}
+
+.moneyBox {
+    margin-top: 2rem;
+}
+
+.moneyBox span {
+    color: #118eea;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+
+.moneyBox span.hint {
+    color: #999;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    display: inline-block;
+    margin: 0 1.2rem 0 0.3rem;
+}
+
+.residue {
+    line-height: 2rem;
+    color: #999;
+    font-size: 1.2rem;
+}
+
+.selectBox {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.bg {
+    position: fixed;
+    left: 0;
+    top: 6.7rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+}
+
+.selectBox .content {
+    position: fixed;
+    left: 0;
+    top: 6.7rem;
+    background-color: #fff;
+    width: 100%;
+}
+
+.selectBox .content p {
+    color: #999;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    padding: 0 1.5rem;
+}
+
+.taskBox {
+    margin: 1.5rem 0;
+    padding: 0 1.5rem;
+}
+
+.taskBox ul li {
+    float: left;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.3rem;
+    background-color: #f8f8f8;
+    margin-right: 1rem;
+    border-radius: 1px;
+    color: #666;
+}
+
+.taskBox ul li.active {
+    color: #118eea;
+    background-color: #c6daff;
+}
+
+.platform ul li {
+    height: 3.5rem;
+    line-height: 3.3rem;
+    padding: 0 1.5rem;
+}
+
+.platform ul li .fl i {
+    width: 1.4rem;
+    height: 1.4rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-right: 0.5rem;
+}
+
+.platform ul li .fl span {
+    font-size: 1.4rem;
+}
+
+.platform ul li .fr i.select {
+    background: url("/src/images/my_centre/select.png") no-repeat;
+    background-size: contain;
+    width: 1.75rem;
+    height: 1.25rem;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.platform ul li.phone_tb .fl i {
+    background: url("/src/images/my_centre/taobao.png") no-repeat;
+    background-size: contain;
+}
+
+.platform ul li.phone_tm .fl i {
+    background: url("/src/images/my_centre/tianmao.png") no-repeat;
+    background-size: contain;
+}
+
+.platform ul li.computer_tb .fl i {
+    background: url("/src/images/my_centre/taobao.png") no-repeat;
+    background-size: contain;
+}
+
+.platform ul li.phone_mls .fl i {
+    background: url("/src/images/my_centre/meilishuo.png") no-repeat;
+    background-size: contain;
+}
+
+.platform ul li.phone_jd .fl i {
+    background: url("/src/images/my_centre/jingdong.png") no-repeat;
+    background-size: contain;
+}
+
+.platform ul li.computer_tm .fl i {
+    background: url("/src/images/my_centre/tianmao.png") no-repeat;
+    background-size: contain;
+}
+
+.platform ul li.phone_mgj .fl i {
+    background: url("/src/images/my_centre/mogujie.png") no-repeat;
+    background-size: contain;
+}
+
+.fun {
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.empty,
+.accomplish {
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.empty {
+    color: #666;
+}
+
+.accomplish {
+    color: #fff;
+    background-color: #118eea;
+}
+
+.platform ul li .fr i.select {
+    display: none;
+}
+
+.platform ul li.active .fr i.select {
+    display: inline-block;
+}
+
+.mui-content-padded {
+    display: none;
+}

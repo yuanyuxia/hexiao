@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 优先使用 IE 最新版本和 Chrome-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- 为移动设备添加 viewport-->
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- 设置苹果工具栏颜色-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>待评价</title>
+    <!--public css-->
+    <link rel="stylesheet" href="/src/libs/layer/skin/layer.css">
+    <link rel="stylesheet" href="/src/css/common/common.css" />
+    <!-- another css -->
+    <link rel="stylesheet" href="/src/libs/webuploader/webuploader.css">
+    <link rel="stylesheet" href="/src/libs/lightbox/css/lightbox.min.css">
+    <link rel="stylesheet" href="/src/libs/layer/skin/layer.css">
+    <link rel="stylesheet" href="/src/css/my_centre/await_evaluate.css">
+</head>
+
+<body>
+    <div class="lg_await_evaluate">
+        <div class="title clearfix seek">
+            <h3 class="fl">指定图文好评</h3>
+            <i class="pull_down fr"></i>
+        </div>
+        <div class="character">
+            <h5>指定文字好评</h5>
+            <p id="target">特意使用一段时间再来评价的。客厅三十个平方，刚好够大。 因家里面有小孩，所以选择了挂墙上。付了一百元安装费。 不过苏宁安装人员服务非常好，速度很快。购物，信赖苏宁。 因为此次购物很满意，我又再次购买了两台空调，很赞。以后有需要购买的家电，一如既往地支持苏宁易购
+            </p>
+            <button data-clipboard-action="copy" data-clipboard-target="#target" id="copy_btn">复制</button>
+            <h5>指定好评图片 <span>(点击放大之后可保存到手机)</span></h5>
+            <div class="assign_img">
+                <ul class="clearfix">
+                    <li>
+                        <a class="example-image-link" href="/src/images/my_centre/upload.jpg" data-lightbox="example-1">
+                            <img class="example-image" src="/src/images/my_centre/upload.jpg" alt="image-1" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="title clearfix require">
+            <h3 class="fl">上传收货及好评截图</h3>
+            <i class="pull_down fr"></i>
+        </div>
+        <div class="uploadImg">
+            <div id="uploader" class="wu-example clearfix">
+                <!--用来存放文件信息-->
+                <div id="thelist" class="uploader-list clearfix">
+
+                </div>
+                <div id="lg_upload"></div>
+            </div>
+            <h5>收货及好评示例图 <span>(点击查看)</span></h5>
+            <div class="assign_imgs">
+                <ul class="clearfix">
+                    <li>
+                        <a class="example-image-link" href="/src/images/my_centre/reputably.jpg" data-lightbox="example-2">
+                            <img class="example-image" src="/src/images/my_centre/reputably.jpg" alt="image-2" />
+                        </a>
+                    </li>
+                    <li>
+                        <a class="example-image-link" href="/src/images/my_centre/consignee.jpg" data-lightbox="example-3">
+                            <img class="example-image" src="/src/images/my_centre/consignee.jpg" alt="image-3" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="ctlBox">
+            <a href="#" id="ctlBtn"  >提交</a>
+        </div>
+    </div>
+</body>
+<!-- public js -->
+<script src="/src/libs/jquery-1.11.1.min.js"></script>
+<script src="/src/libs/layer/layer.js"></script>
+<script src="/src/js/common/common.js"></script>
+<!-- another js -->
+<script src="/src/libs/webuploader/webuploader.js"></script>
+<script src="/src/libs/lightbox/js/lightbox-plus-jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
+<script src="/src/js/my_centre/await_evaluate.js"></script>
+
+</html>

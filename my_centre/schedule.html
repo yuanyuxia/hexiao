@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 优先使用 IE 最新版本和 Chrome-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- 为移动设备添加 viewport-->
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- 设置苹果工具栏颜色-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>操作详情</title>
+    <!--public css-->
+    <link rel="stylesheet" href="/src/libs/layer/skin/layer.css">
+    <link rel="stylesheet" href="/src/css/common/common.css" />
+    <!-- another css -->
+    <link rel="stylesheet" href="/src/css/my_centre/schedule.css">
+</head>
+
+<body>
+    <div class="lg_schedule">
+        <div class="top">
+            <ul class="clearfix">
+                <li class="fl">
+                    <span>订单编号 : </span>
+                    <span class="no">1254563</span>
+                </li>
+                <li class="fr">
+                    <span>下单时间 : </span>
+                    <span class="paymentTime">2018-03-05 18:00</span>
+                </li>
+            </ul>
+        </div>
+        <div class="scheduleBox">
+            <div class="proMessage clearfix">
+                <div class="morrow">
+                    <a href="/my_centre/next_task.html">
+                        <img src="/src/images/my_centre/ciri.png" alt="">
+                    </a>
+                </div>
+                <div class="proImg">
+                    <img src="/src/images/mission/stencil.jpg" alt="">
+                </div>
+                <div class="proCon">
+                    <h5>55寸显示器</h5>
+                    <div class="mission_site">
+                        <i></i>
+                        <span>手机淘宝浏览任务</span>
+                    </div>
+                    <div class="moneys">
+                        <span class="first">佣金:¥120</span>
+                        <span class="second">商品价:¥120</span>
+                        <br>
+                        <span class="third">赏金:¥120</span>
+                    </div>
+                </div>
+            </div>
+            <div class="courseBox">
+                <div class="await_operation clearfix">
+                    <div class="statusImg fl">
+                        <img src="/src/images/my_centre/down_checked.png" alt="">
+                    </div>
+                    <div class="statusCon fr">
+                        <a href="/my_centre/await_operat.html" class="statusT clearfix">
+                            <span class="fl">待操作</span>
+                            <span class="fr">
+                                <img src="/src/images/my_centre/pull_up.png" alt="">
+                            </span>
+                        </a>
+                        <p>次日任务—第一天浏览加入购物车</p>
+                    </div>
+                </div>
+                <div class="await_order clearfix">
+                    <div class="statusImg fl">
+                        <img src="/src/images/my_centre/up_checked.png" alt="">
+                        <img src="/src/images/my_centre/down_checked.png" alt="" class="mtf2">
+                    </div>
+                    <div class="statusCon mt2 fr">
+                        <a href="/my_centre/await_order.html" class="statusT clearfix">
+                            <span class="fl">待下单</span>
+                            <span class="fr">
+                                <img src="/src/images/my_centre/pull_up.png" alt="">
+                            </span>
+                        </a>
+                        <p>次日任务—第二天下单付款</p>
+                    </div>
+                </div>
+                <div class="await_commission mt215 clearfix">
+                    <div class="statusImg fl">
+                        <img src="/src/images/my_centre/up_checked.png" alt="">
+                        <img src="/src/images/my_centre/down_checked.png" alt="" class="mtf2">
+                    </div>
+                    <div class="statusCon mt2 fr">
+                        <a href="/status/return_course.html" class="statusT clearfix">
+                            <span class="fl">待发佣金</span>
+                            <span class="fr">
+                                <img src="/src/images/my_centre/pull_up.png" alt="">
+                            </span>
+                        </a>
+                        <p>等待商家审核并发货</p>
+                    </div>
+                </div>
+                <div class="await_evaluate mt215 clearfix">
+                    <div class="statusImg fl">
+                        <img src="/src/images/my_centre/up_checked.png" alt="">
+                        <img src="/src/images/my_centre/down_checked.png" alt="" class="mtf2">
+                    </div>
+                    <div class="statusCon mt2 fr">
+                        <a href="/my_centre/await_evaluate.html" class="statusT clearfix">
+                            <span class="fl">待评价</span>
+                            <span class="fr">
+                                <img src="/src/images/my_centre/pull_up.png" alt="">
+                            </span>
+                        </a>
+                        <p>买家确认收货并上传评价截图</p>
+                    </div>
+                </div>
+                <div class="await_return mt215 clearfix">
+                    <div class="statusImg fl">
+                        <img src="/src/images/my_centre/up_checked.png" alt="">
+                    </div>
+                    <div class="statusCon mt2 fr">
+                        <a href="/status/audit_course.html" class="statusT clearfix">
+                            <span class="fl">待返现</span>
+                            <span class="fr">
+                                <img src="/src/images/my_centre/pull_up.png" alt="">
+                            </span>
+                        </a>
+                        <p>等待商家审核评价</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- public js -->
+<script src="/src/libs/jquery.min.js"></script>
+<script src="/src/libs/layer/layer.js"></script>
+<script src="/src/js/common/common.js"></script>
+<!-- another js -->
+<script src="/src/js/my_centre/schedule.js"></script>
+
+</html>

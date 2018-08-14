@@ -1,0 +1,147 @@
+body{
+    background-color: #f4f4f4;
+}
+.top{
+    height: 10rem;
+    background-color: #118eea;
+}
+.top ul{
+    height: 4.2rem;
+    line-height: 4.2rem;
+    padding: 0 1.5rem;
+}
+.top ul li span{
+    font-size: 1.3rem;
+    color:#fff;
+}
+.scheduleBox{
+    padding: 0 1.5rem;
+}
+.proMessage{
+    padding:0.6rem 0.5rem 0.5rem 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: -5rem;
+    position: relative;
+}
+
+.proImg{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.proImg img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border:1px solid #f2f2f2;
+}
+.proCon{
+    float: right;
+    width: calc(100% - 90px);
+}
+.proCon h5{
+    color:#000;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.proCon .mission_site{
+    margin: 0.5rem 0 0.3rem;
+}
+.proCon .mission_site i{
+    background:url("/src/images/mission/taobao.jpg") no-repeat;
+    background-size: contain;
+    width: 1.4rem;
+    height: 1.4rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+.proCon .mission_site span{
+    font-size: 1.2rem;
+}
+.moneys span{
+    margin-right: 1rem;
+    line-height: 1.4rem;
+    font-size: 1.2rem;
+    color:#999;
+}
+.morrow{
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    width: 5.6rem;
+    height: 2.1rem;
+}
+.morrow a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.morrow a img{
+    width: 100%;
+    display: inline-block;
+}
+.courseBox{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 2rem 1.5rem 1rem;
+}
+.await_operation .statusImg,
+.await_order .statusImg,
+.await_commission .statusImg,
+.await_evaluate .statusImg,
+.await_return .statusImg{
+    width: 1.8rem;
+    height: 5.15rem;
+}
+.await_operation .statusImg img,
+.await_order .statusImg img,
+.await_commission .statusImg img,
+.await_evaluate .statusImg img,
+.await_return .statusImg img{
+    width: 100%;
+    display: inline-block;
+}
+.await_operation .statusCon,
+.await_order .statusCon,
+.await_commission .statusCon,
+.await_evaluate .statusCon,
+.await_return .statusCon{
+    width: calc(100% - 2.8rem);
+}
+.statusT{
+    line-height: 3rem;
+}
+.statusT span.fl{
+    color:#999;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.statusT span.fr{
+    width: 0.8rem;
+    height: 1.5rem;
+}
+.statusT span.fr img{
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    margin-bottom: 0.1rem;
+}
+.statusCon p{
+    color:#999;
+    font-size: 1.2rem;
+}
+.mtf2{
+    margin-top: -2rem;
+}
+.mt2{
+    margin-top: 2rem;
+}
+.mt215{
+    margin-top: 2.15rem;
+}
+.executory{
+    color:#118eea;
+}

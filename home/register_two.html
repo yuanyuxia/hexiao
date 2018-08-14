@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 优先使用 IE 最新版本和 Chrome-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- 为移动设备添加 viewport-->
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- 设置苹果工具栏颜色-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>注册</title>
+    <!--public css-->
+    <link rel="stylesheet" href="/src/libs/layer/skin/layer.css">
+    <link rel="stylesheet" href="/src/css/common/common.css" />
+    <!-- another js -->
+    <link rel="stylesheet" href="/src/css/home/register_two.css" />
+</head>
+
+<body>
+    <div class="lg_register_two">
+        <h5>验证您的手机号并完善账号</h5>
+        <div class="telephone"></div>
+        <div class="input">
+            <input type="text" name="verify" id="verify" placeholder="输入手机验证码">
+            <div class="gain" onclick="sendsms(this);">获取验证码</div>
+        </div>
+        <input type="password" name="password" id="password" placeholder="设置密码">
+        <input type="password" name="confirmPassword" id="confirmPassword" placeholder="确认密码">
+        <input type="text" name="inviter" id="inviter" placeholder="邀请人ID">
+        <div class="container">
+            <div class="row main">
+                <div class="row">
+                    <span role="button" id="sel_city" class="times"></span>
+                    <i class="initialDay">出生年月日</i>
+                </div>
+            </div>
+        </div>
+        <div class="register">注册</div>
+        <p class="consent">点击注册表示您同意<i>《ZJFW用户协议》</i></p>
+    </div>
+</body>
+<!--public js-->
+<script src="/src/libs/jquery.min.js"></script>
+<script src="/src/libs/layer/layer.js"></script>
+<script src="/src/js/common/common.js"></script>
+<!-- another js -->
+<script src="/src/libs/time/picker.min.js"></script>
+<script src="/src/libs/time/time.js"></script>
+<script src="/src/js/home/register_two.js"></script>
+
+</html>

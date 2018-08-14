@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 优先使用 IE 最新版本和 Chrome-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- 为移动设备添加 viewport-->
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- 设置苹果工具栏颜色-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title></title>
+    <!--public css-->
+    <link rel="stylesheet" href="/src/css/common/common.css" />
+    <link rel="stylesheet" href="/src/libs/layer/skin/layer.css">
+    <!-- another css -->
+    <link rel="stylesheet" href="/src/libs/webuploader/webuploader.css">
+    <link rel="stylesheet" href="/src/libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/css/my_centre/aliww.css">
+</head>
+
+<body>
+    <div class="lg_aliww">
+        <div class="name clearfix">
+            <span class="fl">旺旺名</span>
+            <div class="fr">
+                <span>未填写</span>
+                <i class="jiantou"></i>
+            </div>
+        </div>
+        <div class="nameId clearfix">
+            <span class="fl">旺旺ID</span>
+            <div class="fr">
+                <span>未填写</span>
+                <i class="jiantou"></i>
+            </div>
+        </div>
+        <div class="nameqq clearfix">
+            <span class="fl">QQ号</span>
+            <div class="fr">
+                <span>未填写</span>
+                <i class="jiantou"></i>
+            </div>
+        </div>
+        <div class="phone clearfix">
+            <span class="fl">收货手机号</span>
+            <div class="fr">
+                <span>未填写</span>
+                <i class="jiantou"></i>
+            </div>
+        </div>
+        <div class="region clearfix">
+            <span class="fl">所在地区</span>
+            <div class="container fr">
+                <div class="row main">
+                    <div class="row">
+                        <span role="button" id="sel_city">未填写</span>
+                        <i class="jiantou"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="postcode clearfix">
+            <span class="fl">邮编</span>
+            <div class="fr">
+                <span>未填写</span>
+                <i class="jiantou"></i>
+            </div>
+        </div>
+        <div class="sites">详细地址</div>
+        <textarea name="sites" id="sites" cols="30" rows="10" placeholder="请输入您的车位描述" minlength="15" maxlength="100"></textarea>
+        <div class="alipay">上传支付宝账户截图</div>
+        <div class="upPadding">
+            <div id="uploader" class="wu-example clearfix">
+                <!--用来存放文件信息-->
+                <div id="thelist" class="uploader-list-ali clearfix">
+
+                </div>
+                <div id="lg_upload_ali"></div>
+                <span class="fl slt">示例图</span>
+                <div class="example_img fr">
+                    <img src="/src/images/my_centre/ali.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="tbpay">上传淘宝旺旺账户截图</div>
+        <div class="upPadding">
+            <div id="uploader" class="wu-example clearfix">
+                <!--用来存放文件信息-->
+                <div id="thelist" class="uploader-list-tb clearfix">
+
+                </div>
+                <div id="lg_upload_tb"></div>
+                <span class="fl slt">示例图</span>
+                <div class="example_img fr">
+                    <img src="/src/images/my_centre/tb.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <a href="javascript:;" class="submit">提交</a>
+    </div>
+</body>
+<!-- public js -->
+<script src="/src/libs/jquery-1.11.1.min.js"></script>
+<script src="/src/libs/layer/layer.js"></script>
+<script src="/src/js/common/common.js"></script>
+<!-- another js -->
+<script src="/src/libs/webuploader/webuploader.js"></script>
+<script src="/src/libs/sites/picker.min.js"></script>
+<script src="/src/libs/sites/city.js"></script>
+<script src="/src/js/my_centre/aliww.js"></script>
+
+</html>

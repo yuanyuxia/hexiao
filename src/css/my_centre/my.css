@@ -1,0 +1,600 @@
+.messageTop {
+    padding: 0 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.messageTop .fl {
+    margin-left: 0.5rem;
+}
+
+.messageTop .fl h5 {
+    font-size: 2rem;
+    color: #333;
+    line-height: 2.8rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.messageTop .fl p {
+    font-size: 1.2rem;
+    color: #999;
+    line-height: 1.8rem;
+}
+
+.messageTop .fr {
+    width: 7rem;
+    height: 7rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.messageTop .fr img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.messageT {
+    margin-bottom: 3rem;
+}
+
+.complete {
+    /* margin-top: 3rem; */
+    background-color: #fbf4e2;
+    height: 6rem;
+    padding: 0 1.5rem;
+    /* margin-bottom: 2.5rem; */
+}
+
+.complete span {
+    color: #ed9845;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    float: left;
+    width: calc(100% - 8.2rem);
+    margin-top: 1.2rem;
+}
+
+.complete a {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    background-color: #f0b74c;
+    float: right;
+    line-height: 1.8rem;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    margin-top: 1.7rem;
+}
+
+.p12 {
+    padding: 0 1.2rem;
+}
+
+.indet a {
+    display: inline-block;
+    width: 100%;
+    height: 4.5rem;
+}
+
+.indet a h3 {
+    color: #000;
+    font-size: 2rem;
+    line-height: 4.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.indet a .more {
+    line-height: 4.5rem;
+}
+
+.indet a .more span {
+    color: #999;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+
+/* 商品状态 */
+
+.status {
+    width: 100%;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.status ul li {
+    width: 20%;
+    float: left;
+}
+
+.status ul li a {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.status ul li a .statusImg {
+    width: 2.5rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.status ul li a .statusImg img {
+    width: 100%;
+    display: inline-block;
+}
+
+.status ul li a p {
+    margin-top: 0.3rem;
+    font-size: 1.2rem;
+}
+
+.myh45 {
+    height: 4.5rem;
+    line-height: 4.5rem;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.conLeft {
+    float: left;
+}
+
+.conLeft span {
+    color: #000;
+    font-size: 1.6rem;
+}
+
+.conLeft .imgLeft {
+    margin-top: 1.2rem;
+    margin-right: 1.5rem;
+}
+
+.conLeft .imgLeft img {
+    width: 2rem;
+    height: 2rem;
+    background-size: 2rem 2rem;
+    display: block;
+}
+
+.conRight {
+    float: right;
+    color: #999;
+    font-size: 1.3rem;
+}
+
+.conRight span {
+    font-size: 1.2rem;
+    color: #999;
+}
+
+
+/* ......... */
+
+
+/* 分享有礼 share.html*/
+
+.lg_my {
+    position: relative;
+}
+
+.shareContainer {
+    width: 100%;
+    background-color: #319ded;
+    padding-bottom: 4.5rem;
+}
+
+.shareContainer>p {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+.shareBg {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.shareBg img {
+    display: block;
+    width: 100%;
+}
+
+.shareContainer h3 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 2.4rem;
+    color: #fff;
+    margin-top: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+.shareInfo {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.shareInfo p {
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
+.shareContainer ul {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.shareContainer ul li {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+.shareContainer ul li span {
+    display: inline-block;
+    color: #ffb43e;
+    font-size: 1.8rem;
+}
+
+.shareContainer ul li p {
+    display: inline-block;
+    margin-left: 0.85rem;
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.85)
+}
+
+.shareBottom,
+.shareBottom2 {
+    background-color: #fff;
+    width: 100%;
+    bottom: -0.5rem;
+    left: 0;
+    padding-bottom: 2.5rem;
+}
+
+.shareBottom {
+    height: 10rem;
+    width: 100%;
+    background-color: #319ded;
+}
+
+.shareBottom2 {
+    position: fixed;
+}
+
+.shareBottom p,
+.shareBottom2 p {
+    width: 30%;
+    margin: 0 auto;
+    color: #319ded;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 0.6rem;
+}
+
+.shareBottom input,
+.shareBottom2 input {
+    display: inline-block;
+    width: 66%;
+    margin-left: 5%;
+    height: 5rem;
+    line-height: 5rem;
+    border: 2px solid #2378cf;
+    border-radius: 0.5rem;
+    padding-left: 1.5rem;
+    font-size: 1.6rem;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    z-index: 99;
+}
+
+.shareBottom span,
+.shareBottom2 span {
+    position: absolute;
+    bottom: 2.5rem;
+    right: 5%;
+    width: 8rem;
+    line-height: 5rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    background-color: #2378cf;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+
+/* 在线客服 service.html */
+
+.servicePic {
+    width: 45%;
+    padding-top: 3.4rem;
+    margin: 0 auto;
+}
+
+.servicePic img {
+    width: 100%;
+    padding-bottom: 3.3rem;
+}
+
+.servicePic p {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #333;
+}
+
+.serviceTel {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 13rem;
+}
+
+.serviceTel p {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+
+/* end */
+
+
+/*我的账户 account */
+
+.accountCont {
+    background-color: #f4f4f4;
+    width: 100%;
+    padding-bottom: 32.6rem;
+}
+
+.account {
+    width: 100%;
+    padding: 2rem 1.5rem 5.8rem 1.5rem;
+    background-color: #268fdd;
+    margin-bottom: 1rem;
+}
+
+.account .accInfo {
+    display:block;
+    text-align: right;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.account .balance {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.4rem;
+    margin-top: 2.5rem;
+}
+
+.account .accNum {
+    text-align: center;
+    color: #fff;
+    font-size: 5rem;
+    margin-top: 2.9rem;
+}
+
+.tixian {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    padding: 1rem 1.5rem;
+}
+
+.tixian a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.tixian .txImg {
+    display: inline-block;
+    width: 2.2rem;
+    margin-bottom: 0.3rem;
+    vertical-align: middle;
+}
+
+.tixian .txImg img {
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.tixian .tx {
+    font-size: 1.5rem;
+    color: #333;
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+
+/* 账户明细detail.html */
+
+.detail {
+    width: 92%;
+    margin: 0 auto;
+    padding-top: 0.5rem;
+}
+
+.detail ul {
+    display: inline-block;
+    width: 49%;
+}
+
+.detail ul li {
+    height: 3.5rem;
+    line-height: 3.5rem;
+}
+
+.detail .order {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.detail .orderNum {
+    text-align: right;
+    color: #999;
+    font-size: 1.5rem;
+}
+
+
+/* 账户明细detailList.html */
+
+.detailList {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.detailList ul {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.detailList ul li {
+    position: relative;
+    line-height: 4.5rem;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.detailList ul li a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.detailList ul li .orderList {
+    display: inline-block;
+}
+
+.detailList ul li .orderList p,
+.detailList ul li .orderList .orderData {
+    display: block;
+    height: 2rem;
+}
+
+.detailList ul li p {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.detailList ul li span {
+    color: #999;
+}
+
+.detailList ul li .orderNum {
+    margin-right: 0;
+    color: #333;
+    float: right;
+    margin-top: 4%;
+}
+
+
+/* 提现 cash.html */
+
+.cash {
+    background-color: #f4f4f4;
+    width: 100%;
+}
+
+.cashTop {
+    padding: 0 1.5rem;
+    background-color: #fff;
+}
+
+.cashTop .cashT {
+    border-bottom: 1px solid #ebebeb;
+    color: #333;
+}
+
+.cashTop .cashT>p:nth-child(1) {
+    line-height: 4.65rem;
+    color: #999;
+    font-size: 1.4rem;
+}
+
+.cashTop .cash-input {
+    color: #333;
+    font-size: 3rem;
+    line-height: 4.65rem;
+    line-height: 4.65rem;
+}
+.cashT input::-webkit-input-placeholder{
+    color:#000;
+}
+.cashT input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:#000;
+}
+.cashT input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:#000;
+}
+.cashT input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+    color:#000;
+}
+.cashTop>p {
+    height: 4.3rem;
+    line-height: 4.3rem;
+    font-size: 1.4rem;
+    color: #999;
+}
+
+.cashCont {
+    margin-top: 1rem;
+    background-color: #fff;
+    padding: 0 1.5rem;
+}
+
+.cashCont ul li {
+    line-height: 5rem;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.cashCont ul li span {
+    float: left;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.cashCont ul li input {
+    float: right;
+    color: #666;
+    font-size: 1.4rem;
+    margin-top: 1.9rem;
+    text-align: right;
+    outline: none;
+    border: 0;
+}
+
+.cashCont .cashBtn {
+    display: block;
+    background-color: #118eea;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 7rem;
+    height: 4.4rem;
+    line-height: 4.4rem;
+    color: #fff;
+    text-align: center;
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+}

@@ -1,0 +1,162 @@
+.title {
+    height: 4rem;
+    line-height: 4rem;
+    padding: 0 1.5rem;
+}
+
+.title h3 {
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.title .pull_down {
+    background: url("/src/images/my_centre/pull_down.png") no-repeat;
+    background-size: contain;
+    width: 1.5rem;
+    height: 0.8rem;
+    vertical-align: middle;
+    margin-top: 1.6rem;
+}
+
+.title .pull_up {
+    background: url("/src/images/my_centre/pull_up.png") no-repeat;
+    background-size: contain;
+    width: 0.8rem;
+    height: 1.5rem;
+    vertical-align: middle;
+    margin-top: 1.3rem;
+}
+
+/* 复制 */
+
+.character,
+.uploadImg {
+    padding: 0 1.5rem;
+    background-color: #f2f2f2;
+}
+
+.character h5,
+.uploadImg h5 {
+    color: #333;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    margin-bottom: 0.6rem;
+    font-weight: bold;
+}
+
+.character h5 span,
+.uploadImg h5 span {
+    color: #999;
+}
+
+.character p {
+    font-size: 1.3rem;
+    color: #999;
+    line-height: 1.8rem;
+}
+
+.character button {
+    width: 10rem;
+    height: 3rem;
+    display: block;
+    border: none;
+    background-color: #118eea;
+    color: #fff;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    margin: 2rem auto;
+}
+
+.character button:focus {
+    outline: none;
+}
+
+.assign_img,
+.assign_imgs {
+    padding: 0.2rem 0 1rem;
+}
+
+.assign_img ul li,
+.assign_imgs ul li {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-right: 1rem;
+}
+
+.assign_img ul li a img,
+.assign_imgs ul li a img {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}
+
+#uploader {
+    padding: 1rem 0;
+}
+
+#thelist {
+    float: left;
+}
+
+#thelist .file-item {
+    margin-right: 1rem;
+    float: left;
+    position: relative;
+}
+
+#thelist .file-item img {
+    border: 1px dashed #ccc;
+}
+
+#lg_upload {
+    background: url("/src/images/appeal/upload.jpg") no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.remove {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.remove i {
+    font-size: 18px;
+    line-height: 18px;
+    display: inline-block;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 4px;
+}
+
+/* 提交 */
+
+.ctlBox {
+    padding: 1.2rem 1.5rem;
+    box-shadow: 1px 0px 3px #ddd;
+    margin-top: 3.5rem;
+}
+
+#ctlBtn {
+    width: 100%;
+    height: 3.5rem;
+    outline: none;
+    border: none;
+    display: block;
+    text-align: center;
+    line-height: 3.5rem;
+    color: #fff;
+    font-size: 1.7rem;
+    background-color: #118eea;
+    border-radius: 4px;
+}

@@ -1,0 +1,93 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.lg_appeal_list {
+    background-color: #fff;
+}
+
+.appeal_top {
+    line-height: 4.5rem;
+    padding: 0 1.5rem;
+    border-bottom: 5px solid #f2f2f2;
+}
+
+.appeal_top h3 {
+    font-size: 2rem;
+    color: #333;
+    float: left;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    line-height: 4.5rem;
+}
+
+.appeal_top .sponsor {
+    width: 8rem;
+    height: 2.9rem;
+    line-height: 2.9rem;
+    margin-top: 0.8rem;
+    border-radius: 20px;
+    float: right;
+    text-align: center;
+    background-color: #118eea;
+}
+
+.appeal_top .sponsor a {
+    font-size: 1.3rem;
+    color: #fff;
+    display: block;
+}
+
+.appeal_lists ul li {
+    border-bottom: 1px solid #f2f2f2;
+    padding: 0 1.5rem;
+    /* height: 6rem; */
+    line-height: 6rem;
+    position: relative;
+}
+
+.appeal_lists ul li a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.appealBox {
+    margin-top: 0.6rem;
+}
+
+.appealBox .serial {
+    line-height: 2.6rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.appealBox .time {
+    line-height: 22px;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.status span {
+    font-size: 1.4rem;
+}
+
+.status .course {
+    color: #26bc95;
+}
+
+.status .loser {
+    color: #f4333b;
+}
+
+.status .successful {
+    color: #999;
+}
+
+.mui-content-padded {
+    display: none;
+}

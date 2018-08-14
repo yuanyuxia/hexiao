@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 优先使用 IE 最新版本和 Chrome-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- 为移动设备添加 viewport-->
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- 设置苹果工具栏颜色-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>主页</title>
+    <!--public css-->
+    <link rel="stylesheet" href="/src/libs/layer/skin/layer.css">
+    <link rel="stylesheet" href="/src/css/common/common.css" />
+    <!-- another css -->
+    <link rel="stylesheet" href="/src/css/my_centre/online_task.css">
+</head>
+
+<body>
+    <div class="lg_online_task">
+        <h2>任务模块</h2>
+        <div class="taskBox">
+            <ul class="clearfix">
+                <li>
+                    <a href="/my_centre/common_task.html?valueAdd=0">
+                        <img src="/src/images/my_centre/common_task.png" alt="">
+                        <p>普通任务</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/my_centre/common_task.html?valueAdd=1">
+                        <img src="/src/images/my_centre/reward_task.png" alt="">
+                        <p>赏金任务</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/my_centre/common_task.html?valueAdd=2">
+                        <img src="/src/images/my_centre/buy_back_task.png" alt="">
+                        <p>回购任务</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="today_task clearfix">
+            <span class="fl">今日任务</span>
+            <span class="fr">
+                <i>4</i>
+                <i>/</i>
+                <i>5</i>
+            </span>
+        </div>
+        <div class="reward_task clearfix">
+            <span class="fl">赏金任务</span>
+            <span class="fr">
+                <i>2</i>
+                <i>/</i>
+                <i>60</i>
+            </span>
+        </div>
+        <div class="mouth_task clearfix">
+            <span class="fl">本月任务</span>
+            <span class="fr">
+                <i>4</i>
+                <i>/</i>
+                <i>90</i>
+            </span>
+        </div>
+        <h2>注意事项</h2>
+        <p class="mt1">不能接单的情况</p>
+        <p>1、被商家拉近小黑屋的不能接单</p>
+        <p>2、一天接不超过5单，月不过90单（赏金不超过60,普通+赏金不超+回购不大于300）</p>
+        <div class="h3"></div>
+    </div>
+    <!-- 底部 -->
+    <footer class="footdh" title="home"></footer>
+</body>
+<!-- public js -->
+<script src="/src/libs/jquery.min.js"></script>
+<script src="/src/libs/layer/layer.js"></script>
+<script src="/src/js/common/common.js"></script>
+<!-- another js -->
+<script src="/src/js/common/footer.js"></script>
+<script src="/src/js/my_centre/online_task.js"></script>
+
+</html>

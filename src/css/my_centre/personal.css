@@ -1,0 +1,50 @@
+body{
+    background-color: #f4f4f4;
+}
+.lg_personal{
+    background-color: #fff;
+}
+.name,
+.phone,
+.birthday,
+.inviter,
+.buyer{
+    height: 3.5rem;
+    line-height: 3.5rem;
+    border-bottom:1px solid #f2f2f2;
+    padding: 0 1.5rem;
+}
+.name span.fl,
+.phone span.fl,
+.birthday span.fl,
+.inviter span.fl,
+.buyer span.fl{
+    font-size: 1.5rem;
+    color:#333;
+}
+
+.name input.fr,
+.phone input.fr,
+.birthday input.fr,
+.inviter input.fr {
+    display: inline-block;
+    text-align: right;
+    height: 3.4rem;
+    font-size: 1.3rem;
+    color: #999;
+}
+.buyer{
+    position: relative;
+}
+.buyer a{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.buyer .binding{
+    font-size: 1.3rem;
+    color:#999;
+}
